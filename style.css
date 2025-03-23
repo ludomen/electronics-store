@@ -526,6 +526,15 @@ margin: 30px;
     align-items: center;
     margin-left: 3%;
     margin-right: 3%; 
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+.item:hover{
+    background-color: rgba(228, 228, 228, 0.919);
+}
+.item:active{
+    transform: scale(0.9,0.9);
+    background-color: rgba(228, 228, 228, 0.919);
 }
 .item-text-con{
     display: flex;
